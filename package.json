@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "deploy": "gh-pages -d dist",
     "typecheck": "tsc --noEmit"
   },
